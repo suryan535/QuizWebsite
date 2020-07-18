@@ -1,0 +1,136 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+body {
+  background-color: #def2f1;
+}
+nav {
+  padding: 16px;
+  background-color: #3aafa9;
+  color: #feffff;
+}
+
+.navInner {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+img.logoIcon {
+  width: 60px;
+}
+img.headingImage {
+  width: 100px;
+}
+
+.headingLevel {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #2b7a78;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headingInner {
+  padding: 20px;
+}
+.questionBox {
+  background-color: #3aafa9;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+img.AskImage {
+  width: 70px;
+}
+.ImageBox {
+  padding: 20px;
+}
+.AskBox {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #def2f1;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+.outline {
+  display: flex;
+  align-items: center;
+}
+
+.submitContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.submitBtn {
+  padding: 16px;
+  font-size: 1.5rem;
+  background-color: rgb(92, 202, 98);
+  color: white;
+  font-weight: 500;
+  border-radius: 9px;
+}
+.submitBtn:hover {
+  transition: transform 0.4s;
+  transform: translateY(-4px);
+  background-color: rgb(100, 223, 84);
+  box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.nextPage {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #3aafa9;
+  border-radius: 10px;
+  color: #def2f1;
+  font-weight: 500;
+}
+
+.nextPage:hover {
+  transition: transform 0.4s;
+  transform: translateY(-4px);
+  box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logOut img {
+  width: 70px;
+}
+
+.logOut {
+  border-radius: 10px;
+  background-color: #3aafa9;
+}
+
+.logOut:hover {
+  background-color: #2b7a78;
+}
+
+@media screen and (max-width: 400px) {
+  .text,
+  .AskBox,
+  input,
+  input.submitBtn,
+  .nextPage {
+    font-size: 40px;
+  }
+
+  img.AskImage {
+    width: 80px;
+  }
+}
